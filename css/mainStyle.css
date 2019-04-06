@@ -31,14 +31,33 @@
   background: #125688;
   color: white;
 }
-
+input{
+  font-size: 1.25em;
+}
+button{
+  font-size: 1em;
+}
+div{
+  font-size: 1.25em;
+}
+p{
+  font-size: 1.25em;
+}
 a{
-  color: #007bff;
+  font-size: 1.25em;
+  color: #6f42c1;
 }
 strong{
   font-size: 1.5em;
 }
 body{
-  background-image: url('/content/backgroundimage.jpg');
+  background-image: url('https://images.unsplash.com/photo-1513002749550-c59d786b8e6c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80');
   background-position: center center;
+  background-size: cover;
+}
+footer{
+
+  padding:20px;
+  box-shadow:rgba(0.7,10,100,0.7) 5px 5px 10px;
+  margin-top:20px;
 }
