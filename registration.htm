@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Register</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/mainStyle.css">
+</head>
+<body>
+&emsp;&emsp;&emsp;
+<a href="index.htm"> HOMEPAGE</a>
+<a class="vl"></a>
+<a href="films.htm">FILMS</a>
+<a class="vl"></a>
+<a href="books.htm">BOOKS</a>
+<a class="vl"></a>
+<a href="musics.htm">MUSICS</a>
+<a class="vl"></a>
+<a href="usefullinks.htm">USEFUL LINKS</a>
+<a class="vl"></a>
+<a href="contactme.htm">CONTACT ME </a>
+<a class="vl"></a>
+<ins><font size="6em"><bold>REGISTER</bold></font></ins>
+<br><br><br><br>
+<form>
+<table>
+<tr>
+<td>
+      &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<label for="namesname"><b>Name(Middle Name) Surname:</b></label>
+	  </td>
+	  <td>
+      <input type="text" placeholder="" name="namesname">
+	  </td></tr></div><div>
+	  <tr><td>
+	  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<label for="password"><b>Password:</b></label>
+	   </td>
+	   <td>
+      <input type="text" placeholder="" name="password" required>
+	  </td></tr></div><div>
+	  <tr><td>
+	  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<label for="email"><b>E-mail:</b></label>
+	   </td>
+	   <td>
+      <input type="text" placeholder="xyz@abc.com" name="email" required>
+	  </td></tr></div><div>
+	  <tr><td>
+	  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<label for="date"><b>Date of birth:</b></label>
+	   </td>
+	   <td>
+      <input type="date" placeholder="" name="date" required>
+	  </td></tr></div><div>
+	  <tr><td>
+	  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<label for="department"><b>Department:</b></label>
+	   </td>
+	   <td>
+      
+  <input list="department" name="department">
+  <datalist id="department">
+    <option value="Open Education Faculty">
+    <option value="Faculty of Pharmacy">
+    <option value="Faculty of Humanities">
+    <option value="Faculty of Education">
+    <option value="Faculty of Law">
+  </datalist>
+  
+  </td></tr></div><div>
+	  <tr><td>
+	  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<label for="gender"><b>Gender:</b></label>
+	   </td>
+	   <td>
+      
+  <input list="gender" name="gender">
+  <datalist id="gender">
+    <option value="Male">
+    <option value="Female">
+    <option value="Doesn't matter">
+  </datalist>
+
+	  </td></tr></div><div>
+	  <tr><td>
+	  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<label for="aboutme"><b>About Me:</b></label>
+	   </td>
+	   <td>
+      <textarea name="aboutme" rows="10" cols="30"></textarea>
+	  </td></tr></div><div>
+	   <tr><td>
+	  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<label for="photo"><b>Upload Your Photo:</b></label>
+	   </td>
+	   <td>
+	  
+  <input type="file" name="img" multiple>
+
+	  </td></tr></div><div>
+	   <tr><td><br>
+	  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<label for="interests"><b>Mark Your Interests:</b></label>
+	   </td></tr></div><div>
+	   <tr><td><br>
+	   
+      
+  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<input type="checkbox" name="interests" value="Autos and Vehicles">Autos and Vehicles<br>
+  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<input type="checkbox" name="interests" value="Education">Education<br>
+  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<input type="checkbox" name="interests" value="Gaming">Gaming<br>
+  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<input type="checkbox" name="interests" value="Politics">Politics<br>
+  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<input type="checkbox" name="interests" value="Politics">Science and Technology<br>
+  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<button onclick="myFunc()" type="submit">Send</button><br><br>
+  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;<input type="reset" value="Reset"><br><br>
+  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+   <a href="index.htm" class="fa fa-home"></a>
+  </td>
+  <td>
+  <input type="checkbox" name="interests" value="Comedy">Comedy<br>
+  <input type="checkbox" name="interests" value="Film and Animation">Film and Animation<br>
+  <input type="checkbox" name="interests" value="Music">Music<br>
+  <input type="checkbox" name="interests" value="Pets and Animals">Pets and Animals<br>
+  <input type="checkbox" name="interests" value="Sports">Sports<br>
+  <br><br><br><br><br><br><br><br>
+  </td>
+
+		   </td></tr></div></table>
+	  <script>
+function myFunc() {
+  alert("Thanks for registration.");
+}
+</script>
+
+	<footer>
+		<div>Copyright © Design and Coding: <a href="#" >Ali Alperen Uzun</a></div>
+	</footer>
+</body>
+</html>
