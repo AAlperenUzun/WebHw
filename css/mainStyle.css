@@ -32,28 +32,26 @@
   color: white;
 }
 input{
-  font-size: 1.25em;
+  font-size: 0.70em;
 }
 button{
-  font-size: 1em;
+  font-size: 0.70em;
 }
 div{
   font-size: 1.25em;
 }
 p{
-  font-size: 1.25em;
+  font-size: 0.75em;
 }
 a{
   font-size: 1.25em;
-  color: #6f42c1;
+
 }
 strong{
   font-size: 1.5em;
 }
 body{
-  background-image: url('https://images.unsplash.com/photo-1513002749550-c59d786b8e6c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80');
-  background-position: center center;
-  background-size: cover;
+
 }
 footer{
 
